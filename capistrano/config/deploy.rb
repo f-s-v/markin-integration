@@ -4,7 +4,7 @@ set :application, 'markin'
 set :repo_url, 'git@github.com:f-s-v/markin-application.git'
 set :user, :web
 set :deploy_to, "/home/#{fetch(:user)}/applications/#{fetch(:application)}"
-set :log_level, :info
+set :log_level, :debug
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bower}
 set :linked_files, %w{.env}
 set :default_env, { path: "./bin:$PATH" }
@@ -31,7 +31,7 @@ namespace :secrets do
     end
   end
 end
-before "deploy:check", "secrets:check_dotenv"
+after "deploy:check:directories", "secrets:check_dotenv"
 
 namespace :deploy do
   desc 'Restart application'
