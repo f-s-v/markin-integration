@@ -9,15 +9,6 @@ set :linked_files, %w{.env}
 set :ssh_options, { forward_agent: true }
 set :secrets_app_name, 'f-s-v-secrets'
 set :secrets_app_pattern, 'MARKIN'
-
-namespace :deploy do
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      if test("initctl list | grep #{fetch(:application)}")
-        execute "sudo restart #{fetch(:application)}"
-      end
-    end
-  end
-end
-after "deploy:publishing", "deploy:restart"
+set :services, [
+  {name: fetch(:application), roles: :app, sudo: true}
+]
