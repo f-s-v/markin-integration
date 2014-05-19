@@ -1,0 +1,6 @@
+f-s-v.railsbox-image
+f-s-v.postgresql-database
+f-s-v.railsbox-bower-runtime
+f-s-v.railsbox-rails-application
+f-s-v.railsbox-foreman-services
+f-s-v.railsbox-nginx-upstream-rails-application

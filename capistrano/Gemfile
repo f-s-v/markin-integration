@@ -1,0 +1,5 @@
+source 'http://rubygems.org'
+
+gem 'capistrano-bower'
+gem 'capistrano-rails', '~> 1.1.1'
+gem 'pry'
