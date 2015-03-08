@@ -41,7 +41,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capistrano (~> 3.1)
+  capistrano (~> 3.2.1)
   capistrano-bower
   capistrano-rails (~> 1.1.1)
   capistrano-secrets (~> 0.0)
