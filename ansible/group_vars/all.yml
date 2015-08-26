@@ -1,6 +1,6 @@
 railsbox_application: markin
 railsbox_port: 3000
-railsbox_domains: vm.dev.f-s-v.com
+railsbox_domains: vladimirmarkin.com
 railsbox_user: web
 railsbox_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyOMjAhQ91BSEwgMdgH912vD1eFnfV4hEvsKkWf5Vm9F29QumotBULsaatoZI+LPn+xxowvc+gaf8vaTjRPEWpuQt6XRAsFYOXGQaXKDgN25ulaCuHtgwAG0Do+DRin3iiWlmBglKBotp3zQYvUdMNYikC3aXMBZldt+myDjjOP6ASZ1WQRPZlrgMH4L+VB36gIcGTsDzvorvhJH/eNqf+DVpOyuD0eEUGAMswB/EYOPWN4QOI1Q4UsEakQbVpI6UnMM6UhUluacN8PiZmpRMzflRs0sPwIc9JurHLPc0rYYAk9Ro8JX2LqZMIZwDK55cvPY3LVnj6FglVf2tuV18vw== oktoberliner@oktoberliner-laptop
